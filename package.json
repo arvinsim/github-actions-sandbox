@@ -8,11 +8,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "next lint"
   },
   "devDependencies": {
     "@types/node": "20.10.4",
     "@types/react": "18.2.45",
+    "eslint": "8.55.0",
+    "eslint-config-next": "14.0.4",
     "prettier": "^3.1.1",
     "typescript": "5.3.3"
   }
