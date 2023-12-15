@@ -63,7 +63,7 @@ jobs:
       - name: upload artifacts
         uses: actions/upload-pages-artifact@v2
         with:
-          path: "next"
+          path: "/home/runner/work/github-actions-sandbox/github-actions-sandbox/out"
       - name: deploy
         id: deployment
         uses: actions/deploy-pages@v3
