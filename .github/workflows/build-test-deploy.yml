@@ -57,6 +57,8 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: ls -la
+      - run: pwd
+
 
       - name: upload artifacts
         uses: actions/upload-pages-artifact@v2
