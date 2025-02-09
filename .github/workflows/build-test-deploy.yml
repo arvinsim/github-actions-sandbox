@@ -58,7 +58,7 @@ jobs:
       - run: npm run build
 
       - name: upload artifacts
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "/home/runner/work/github-actions-sandbox/github-actions-sandbox/out"
       - name: deploy
