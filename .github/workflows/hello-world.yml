@@ -1,7 +1,8 @@
 name: hello-world
 on:
-  push
-  workflow_dispatch
+  repository_dispatch:
+    types:
+      - manual-hello-world
 jobs:
   hello-world-job:
     runs-on: ubuntu-latest
